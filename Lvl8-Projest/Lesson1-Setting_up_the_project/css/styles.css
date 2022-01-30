@@ -335,7 +335,7 @@ a {
   content: close-quote;
 }
 .quote__author {
-  font: size 3rem;
+  font-size: 3rem;
   font-weight: 500;
   font-style: normal;
   margin-bottom: 0;
@@ -359,5 +359,14 @@ a {
   }
   .quote__organization {
     font-size: 1.6rem;
+  }
+}
+/* _____________________________Grids_____________________________ */
+.grid {
+  display: grid;
+}
+@media screen and (min-width: 768px) {
+  .grid--1x2 {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
